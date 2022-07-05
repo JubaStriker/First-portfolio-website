@@ -13,6 +13,12 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.mid-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .name-color {
     color: orange;
 }
@@ -25,13 +31,25 @@ section {
 .half-width {
     width: 50%;
     padding-left: 100px;
+    padding-bottom: 200px;
 }
 
 .half-width-image {
     padding-left: 90px;
+    padding-bottom: 200px;
 }
 
 .hire-me {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.resume-button {
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
